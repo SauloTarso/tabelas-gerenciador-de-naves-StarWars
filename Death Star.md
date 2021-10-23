@@ -54,7 +54,7 @@ create table PilotosNaves
 go
 	
 alter table PilotosNaves add constraint PK_PilotosNaves primary key (IdPiloto, IdNave);
-	go
+go
 	
 alter table PilotosNaves add constraint FK_PilotosNaves_Pilotos foreign key (IdPiloto) references Pilotos (IdPiloto)
 go
