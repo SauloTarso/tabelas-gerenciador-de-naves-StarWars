@@ -1,5 +1,5 @@
 ```
-use EstrelaDaMorte
+use DeathStar
 
 create table Planetas
 (
